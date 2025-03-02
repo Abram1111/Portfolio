@@ -106,5 +106,4 @@ This document provides an in-depth breakdown of how Bootstrap components are use
 - `data-bs-toggle="tooltip"`: Activates Bootstrap tooltips.
 - `fab fa-linkedin`: Displays the LinkedIn icon from Font Awesome.
 
-This README file provides a comprehensive guide to how Bootstrap classes are applied to design and structure the portfolio website.
 
