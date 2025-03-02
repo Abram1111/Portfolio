@@ -6,13 +6,13 @@ This document provides an in-depth breakdown of how Bootstrap components are use
 
 ### Navbar Container
 ```html
-<nav class="navbar navbar-expand-lg fixed-top pill-nav">
+<nav class="navbar navbar-expand-lg fixed-top ">
 ```
 #### Explanation:
 - `navbar`: Defines a responsive navigation bar.
 - `navbar-expand-lg`: Expands the navbar on large screens (≥992px).
 - `fixed-top`: Fixes the navbar to the top of the viewport.
-- `pill-nav`: Custom class for additional styling.
+
 
 ### Toggler Button
 ```html
