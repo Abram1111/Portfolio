@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top ">
+    <div class="container">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="vh-100 d-flex align-items-center justify-content-center text-center" style="background: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') center/cover;">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+    <div class="position-relative text-white">
+        <h1 class="display-4 fw-bold">Abram Gad</h1>
+        <p class="lead">Junior Frontend Developer | Embedded software engineer</p>
+        <a href="Abram_Gad_SW.pdf" class="btn rounded-pill" download="Abram Gad CV">Download Resume</a>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5  d-flex align-items-center" >
+    <div class="container d-flex flex-column justify-content-center text-center">
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center">
+                <div class="pic p-2 rounded-circle border border-5">
+                    <img src="img/personal-pic.jpeg" class="rounded-circle img-fluid" alt="Profile Picture">
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card p-4 border-0 bg-transparent">
+                    <h2 class="text-center mb-5 fw-bold display-4" >About Me</h2>
+                    <p>I am Abram Gad a passionate junior frontend developer.
+                    who graduated from cairo university with a bachelor's degree in biomedical engineering .
+                    I specialize in building responsive and user-friendly web applications using modern technologies.
+                     With experience in HTML, CSS, Bootstrap, javaScript, typeScript and react,
+                      I strive to create visually appealing and functional websites.
+                       I am eager to learn and grow in the field, always seeking new challenges to enhance my skills.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="projects" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5 fw-bold display-4">Projects</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card text-center h-100 overflow-hidden">
+                    <img src="img/Healu.png" class="card-img-top img-fluid" alt="Project 1">
+                    <div class="card-body position-relative">
+                        <div class="project-description w-100">
+                            <p class="card-text">HealU is a Polyclinic Management System that is developed to help the polyclinic to manage their daily operations.
+                                This system is developed using microservices architecture.
+                                This system is developed as a part of the Healthcare Information System course at the Department of Systems & Biomedical Engineering, Cairo University.</p>
+                        </div>
+                        <a href="https://github.com/Abram1111/HealU" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card text-center h-100 overflow-hidden">
+                    <img src="img/digital_filter.png" class="card-img-top img-fluid" alt="Project 2">
+                    <div class="card-body position-relative">
+                        <div class="project-description w-100">
+                            <p class="card-text">The main objective of this project is to apply a digital filter to a given signal.
+                                This signal can be obtained by either importing a signal from a csv file or from a trackpad that allows the user to create the signal they desire.
+                                The filter itself can also be applied by placing zeros and poles on the unit circle or by importing a previously exported filter.
+                                The created filter can also have its phase corrected by applying an allpass filter.
+                                The allpass coefficient can be written or chosen from a library of already made allpass filters.</p>
+                        </div>
+                        <a href="https://github.com/Abram1111/digital_Filters" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card text-center h-100 overflow-hidden">
+                    <img src="img/task_manger.png" class="card-img-top img-fluid" alt="Project 3">
+                    <div class="card-body position-relative">
+                        <div class="project-description w-100">
+                            <p class="card-text">This is a Task Manager application built using React and Next.js.
+                                The app provides an intuitive and easy-to-use interface for managing tasks,
+                                allowing users to add, edit, complete, and delete tasks.</p>
+                        </div>
+                        <a href="https://github.com/Abram1111/TaskManager" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+  
+</style>
+
+
+
+
+<!-- Contact Section -->
+<section id="contact" class="py-5  ">
+    <div class="container">
+        <h2 class="text-center  mb-5 fw-bold display-4">Contact Me</h2>
+        <form>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Name</label>
+                    <input type="text" class="form-control" required>
+                    <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" required>
+                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="4" required></textarea>
+                <div class="invalid-feedback">Please enter your message.</div>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn ">Submit</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <div>
+        <a href="https://www.linkedin.com/in/abram-gad-hanna/" target="_blank" class="text-white mx-2" data-bs-toggle="tooltip" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.facebook.com/abram.gad.1" target="_blank" class="text-white mx-2" data-bs-toggle="tooltip" title="facebook">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://github.com/Abram1111" target="_blank" class="text-white mx-2" data-bs-toggle="tooltip" title="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+        <p class="mt-2 mb-0">&copy; 2025 Abram Gad</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
