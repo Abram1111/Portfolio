@@ -1,29 +1,62 @@
 :root{
-    --nav-color: rgb(61, 62, 66);
-    --btn-color: rgb(241 125 96);
+    --Prime-color: rgb(61, 62, 66);
+    --side-color: rgb(241 125 96);
     --section-background: rgb(217 218 204);
     --heading-color: rgb(30 33 53);
 }
+/* nav bar section */
 .navbar {
-    background-color: var(--nav-color) !important;
+    background-color: var(--Prime-color) !important;
+
 }
 .navbar .nav-link, .navbar-brand {
     color: white !important;
 }
 
+.navbar-nav .nav-link {
+    position: relative;
+    
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: var(--side-color) !important ; /* Color on hover */
+}
+
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: var(--side-color); /* Underline color */
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%; 
+}
+
+
 .btn
 {
-    background-color: var(--btn-color) !important;
+    background-color: var(--side-color) !important;
     color: white !important;
+    
 }
+
 #about{
     background-color: var(--section-background);    
 }
 #contact{
     background-color: var(--section-background);    
 }
+#projects{
+    background-color: rgb(189 185 174);    
+}
 .pic{
-    border-color: rgb(30, 33, 53) !important; 
+    border-color: var(--Prime-color) !important; 
 }
 
 
@@ -39,4 +72,9 @@
 }
 .card:hover .project-description {
     max-height: 250px;
+}
+
+footer{
+    background-color: var(--Prime-color);
+    
 }
